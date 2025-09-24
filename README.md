@@ -68,11 +68,13 @@ The deployment process will:
 
 ### 4. Invoke Deployed Agent
 
-Update the `agentRuntimeArn` in `invoke.py` (line 15) with your deployed agent's ARN, then:
+Update the `agentRuntimeArn` in `invoke.py` (line 15) with your deployed agent's ARN, (feel free to update query in line 10), then:
 
 ```bash
-python invoke.py
+python invoke.py 
 ```
+
+
 
 ## Project Structure
 
