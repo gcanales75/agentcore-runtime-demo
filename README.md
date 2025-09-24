@@ -88,13 +88,11 @@ agentcore-runtime-demo/
 
 The system implements a **hierarchical multi-agent architecture**:
 
-- **Migration Orchestrator**: Main coordinator agent
 - **Architecture Analyst**: Specializes in AWS architecture design and diagrams
 - **Cost Analysis Specialist**: Focuses on cost optimization and financial projections
 
 Each specialist agent uses dedicated MCP (Model Context Protocol) servers for:
 - AWS Documentation access
-- Architecture diagram generation
 - Cost analysis and pricing data
 
 ## Configuration
