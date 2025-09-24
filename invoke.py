@@ -7,12 +7,12 @@ import re
 client = boto3.client('bedrock-agentcore')
 
 
-input_text = "Kinesis Data Streams sin utilizar DMS, puede capturar en tiempo real combios en una base de datos Aurora PostgreSQL (versiones 13 a 15), incluyendo INSERTS, UPDATES, DELETE y cambios en tablas?"
+input_text = "Design an arquitecture for an e-commerce platform with 1M daily users"
 
 payload = json.dumps({"prompt": input_text}).encode()
 
 response = client.invoke_agent_runtime(
-    agentRuntimeArn="arn:aws:bedrock-agentcore:us-west-2:521878158907:runtime/multi_agent_mcp_15-a2onxY9BAl",
+    agentRuntimeArn="<UPDATE_WITH_AGENT_ARN>",
     qualifier="DEFAULT",
     payload=payload
 )
