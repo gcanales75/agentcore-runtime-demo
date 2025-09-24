@@ -66,15 +66,15 @@ The deployment process will:
 - Deploy to Amazon Bedrock AgentCore Agent Runtime
 - Return an Agent ARN for programmatic access
 
+Take note of the `Agent ARN` at the end of the `agentcore launch` command execution
+
 ### 4. Invoke Deployed Agent
 
-Update the `agentRuntimeArn` in `invoke.py` (line 15) with your deployed agent's ARN, (feel free to update query in line 10), then:
+Now that the agent is running in the AWWS Cloud it's time to invoke it. First update the `agentRuntimeArn` in `invoke.py` (line 15) with your deployed agent's ARN, (feel free to update query in line 10), then:
 
 ```bash
 python invoke.py 
 ```
-
-
 
 ## Project Structure
 
