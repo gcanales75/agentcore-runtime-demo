@@ -68,7 +68,7 @@ The deployment process will:
 
 ### 4. Invoke Deployed Agent
 
-Update the `agentRuntimeArn` in `invoke.py` with your deployed agent's ARN, then:
+Update the `agentRuntimeArn` in `invoke.py` (line 15) with your deployed agent's ARN, then:
 
 ```bash
 python invoke.py
