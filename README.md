@@ -1,4 +1,4 @@
-# Amazon Bedrock AgentCore - AWS Migration Planning Agent
+# Amazon Bedrock AgentCore - AWS Architect Agent
 
 > A multi-agent system powered by Amazon Bedrock AgentCore Runtime that designs AWS cloud architectures following Well-Architected Framework best practices
 
@@ -34,7 +34,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install dependencies
-pip install bedrock-agentcore strands-agents bedrock-agentcore-starter-toolkit streamlit
+pip install bedrock-agentcore strands-agents bedrock-agentcore-starter-toolkit
 ```
 
 ### 2. Local Testing
