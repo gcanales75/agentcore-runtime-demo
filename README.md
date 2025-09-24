@@ -46,8 +46,9 @@ python app/multi_agent_mcp.py
 # Test with curl (in another terminal)
 curl -X POST http://localhost:8080/invocations \
   -H "Content-Type: application/json" \
-  -d '{"migration_request": "Design an arquitecture for an e-commerce platform with 1M daily users"}'
+  -d '{"prompt": "Design an arquitecture for an e-commerce platform with 1M daily users"}'
 ```
+
 
 ### 3. Cloud Deployment
 
@@ -129,6 +130,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For issues and questions:
-- Check the [AWS Bedrock AgentCore Documentation](https://docs.aws.amazon.com/bedrock/)
-- Review the [Strands Agents Framework](https://github.com/awslabs/strands-agents)
+- Check the [AWS Bedrock AgentCore Documentation](https://aws.amazon.com/bedrock/agentcore/)
+- Review the [Strands Agents Framework](https://strandsagents.com/latest/)
 - Open an issue in this repository
