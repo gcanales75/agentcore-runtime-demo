@@ -1,6 +1,6 @@
 # Amazon Bedrock AgentCore - AWS Solutions Architect Agent
 
-> A multi-agent system powered by Amazon Bedrock AgentCore Runtime that designs AWS cloud architectures following Well-Architected Framework best practices
+> A multi-agent system powered by Strands Agents and Amazon Bedrock AgentCore Runtime that designs AWS cloud architectures following Well-Architected Framework best practices
 
 ## Overview
 
